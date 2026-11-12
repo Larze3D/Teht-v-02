@@ -1,0 +1,54 @@
+html{
+    background-color:#A6958F;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bannerL{
+    color: white;
+    width: 70%;
+}
+.bannerR{
+    color: white;
+    width: 30%;
+    text-align: right;
+}
+
+.banner{
+    background-color:#302940;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.aldrich-regular {
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gallery{
+    display: flex;
+    margin: auto;
+    max-width: 51%;
+    align-items: stretch;
+}
+
+.gallery img{
+    max-width: 30%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    gap: 5%;
+}
+
+.info{
+    background-color:#54678C ;
+    border-radius: 10px;
+}
