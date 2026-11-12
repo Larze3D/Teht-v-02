@@ -2,8 +2,9 @@ html{
     background-color:#A6958F;
 }
 
-p{
+p, h2, li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .bannerL{
@@ -16,11 +17,17 @@ p{
     text-align: right;
 }
 
+
 .banner{
     background-color:#302940;
     width: 50%;
     margin: auto;
     display: flex;
+    flex-direction: column-reverse;
+    flex-wrap:wrap;
+    max-height: 235px;
+    padding: 1%;
+    max-width: 500px;
 }
 
 .aldrich-regular {
@@ -46,9 +53,37 @@ p{
     margin: auto;
     width: 70%;
     gap: 5%;
+    max-width: 700px;
 }
 
 .info{
     background-color:#54678C ;
     border-radius: 10px;
+    padding: 1%;
+}
+
+.työkalut{
+    border: 38px #A65858;
+    border-style: solid none;
+    background-color:#302940;
+}
+
+.Soitin{
+    background-color:#54678C;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    padding: 0.1% 1% 1% 1%;
+    max-width: 700px;
+}
+
+img{
+    max-width: 200px;
+}
+
+/* Korjaa tämä */
+@media (min-width: 2876px){
+    .gallery{
+        max-width: 2876px;
+    }
 }
